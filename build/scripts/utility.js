@@ -1,0 +1,1 @@
+var app=angular.module("myApp",[]);app.controller("myCtrl",function(t,o){o({method:"GET",url:"http://localhost:3000/",headers:{"Content-Type":"application/json"}}).then(function(o){t.result=o.data.data,console.log("OK:",t.result)}).catch(function(o){console.log("ERROR:",o)})});
