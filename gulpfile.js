@@ -1,9 +1,9 @@
-var gulp          = require ('gulp'),
-    uglify        = require ('gulp-uglify'),
-    minify        = require ('gulp-minify-css'),
-    connect       = require ('gulp-connect'),
-    open          = require ('gulp-open'),
-    exec = require('child_process').exec;
+const gulp = require ('gulp'),
+      uglify = require ('gulp-uglify'),
+      minify = require ('gulp-minify-css'),
+      connect = require ('gulp-connect'),
+      open = require ('gulp-open'),
+      exec = require('child_process').exec;
 
 
 // HTML Task

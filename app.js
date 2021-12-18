@@ -36,5 +36,5 @@ var server = app.listen(port, () => {
     debug(`Listening at http://localhost:${port}`)
 })
 
-module.exports = app;
 module.exports.stop = stop;
+module.exports = app;
